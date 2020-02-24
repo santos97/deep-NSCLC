@@ -12,6 +12,7 @@ Setup:
 7. scipy 1.1.0
 8. openslide-python 1.1.1
 9. Pillow 5.1.0
+10. libiconv-1.15 
 
 System in use:
 
@@ -37,7 +38,9 @@ Addition data for testing the model is be given by JSS Hospitals with x40, x20 m
 - uuid.txt
 
 ## Pre Processing
-(In progress)
+Convert all downloaded .svs files to .jpg image format. 
+Use the code availabe in "convert-svs-to-jpg/convert.py"
+See folder convert-svs-to-jpg/
 
 ## Full Training the Network
 (In progress)
