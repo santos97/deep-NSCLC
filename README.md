@@ -3,15 +3,15 @@
 To provide the pathology department at JSS Hospitals with highly accurate model which can detect lung cancers and also predict the mutations.
 
 Setup:
-Conda Environment
-python 3.6.5
-tensorflow-gpu 1.9.0
-numpy 1.14.3
-matplotlib 2.1.2
-sklearn
-scipy 1.1.0
-openslide-python 1.1.1
-Pillow 5.1.0
+1. Conda Environment
+2. python 3.6.5
+3. tensorflow-gpu 1.9.0
+4. numpy 1.14.3
+5. matplotlib 2.1.2
+6. sklearn
+7. scipy 1.1.0
+8. openslide-python 1.1.1
+9. Pillow 5.1.0
 
 System in use:
 
