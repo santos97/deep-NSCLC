@@ -1,6 +1,21 @@
 # Deep-NSCLC Using InceptionV3 model:
 
 To provide the pathology department at JSS Hospitals with highly accurate model which can detect lung cancers and also predict the mutations.
+
+Setup:
+Conda Environment
+python 3.6.5
+tensorflow-gpu 1.9.0
+numpy 1.14.3
+matplotlib 2.1.2
+sklearn
+scipy 1.1.0
+openslide-python 1.1.1
+Pillow 5.1.0
+
+System in use:
+
+
 The entire project is divided into 5 phases as follows:
 
 ## Data Acquisition:
