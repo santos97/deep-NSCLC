@@ -21,12 +21,19 @@ The entire project is divided into 5 phases as follows:
 ## Data Acquisition:
 Collecting whole slide images for Adenocarcinoma(LCAD) and Squamous Cell Carcinoma(LUSC) from TCGA using GDC Tool.
 
-TCGA - ttps://portal.gdc.cancer.gov/
-GDC Tool for extracting large dataset:  https://gdc.cancer.gov/access-data/gdc-data-transfer-tool
+- TCGA - https://portal.gdc.cancer.gov/
+- GDC Tool for extracting large dataset:  https://gdc.cancer.gov/access-data/gdc-data-transfer-tool
+
+DataSet division:
+a) 504 .svs images of LUAD
+b) 512 .svs images of LUSC
+c) 502 .svs images of Normal Cells
+
+Addition data for testing the model is be given by JSS Hospitals with x40, x20 maginfication (stained).
 
 ### Files required:
-- Manifest.txt
-- gdc.json
+- gdc-manifest.txt
+- gdc-metadata.json
 - uuid.txt
 
 ## Pre Processing
@@ -40,3 +47,5 @@ GDC Tool for extracting large dataset:  https://gdc.cancer.gov/access-data/gdc-d
 
 ## Post Processing
 (Not started)
+
+## Folder Structure
