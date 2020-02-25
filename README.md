@@ -61,6 +61,8 @@ Addition data for testing the model is be given by JSS Hospitals with x40, x20 m
 Convert all downloaded .svs files to .jpg image format. 
 Use the code availabe in "convert-svs-to-jpg/convert.py"
 See folder convert-svs-to-jpg/
+<br />
+Users can specify the number of cores to convert very large svs images faster.
 
 ## Full Training the Network
 (In progress)
