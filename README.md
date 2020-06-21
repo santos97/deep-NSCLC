@@ -1,4 +1,4 @@
-# Deep-NSCLC Using InceptionV3 and custom model:
+# Explainable Deep-NSCLC Model:
 
 To provide the pathology department at JSS Hospitals with highly accurate model which can detect lung cancers and also predict the mutations.
 
@@ -63,6 +63,13 @@ Use the code availabe in "convert-svs-to-jpg/convert.py"
 See folder convert-svs-to-jpg/
 <br />
 Users can specify the number of cores to convert very large svs images faster.
+
+## Networks:
+Inception V3 architecture
+<img width="628" alt="">
+
+Custom Network:
+<img width="628" alt="">
 
 ## Full Training the Network
 (In progress)
