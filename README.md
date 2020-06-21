@@ -1,4 +1,4 @@
-# Deep-NSCLC Using InceptionV3 model:
+# Deep-NSCLC Using InceptionV3 and custom model:
 
 To provide the pathology department at JSS Hospitals with highly accurate model which can detect lung cancers and also predict the mutations.
 
