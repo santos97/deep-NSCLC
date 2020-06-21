@@ -73,12 +73,44 @@ Custom Network:
 <img src="https://github.com/santos97/deep-NSCLC/blob/master/images/custom_archi.png" width="628">
 
 ## Full Training the Network
-(In progress)
+Training V3:
+<br>
+<img src="https://github.com/santos97/deep-NSCLC/blob/master/images/v3_train.png" width="628">
+<br>
+Training Custom Net:
+<br>
+<img src="https://github.com/santos97/deep-NSCLC/blob/master/images/custom_training.png" width="628">
 
-## Evaluating the Networks performance
-(Not started)
+## Networks performance:
+_Inception V3:_ <br>
+Key findings:
+<br>
+1.A scheduler to dynamically change learning rate based on validation loss.<br>
+2.Weight decay method to overcome very early overfitting.<br>
+3.A dropout node (probability ~ 0.8) was used to avoid overfitting.<br>
+Obtained accuracy ~84%<br>
+<br>
 
-## Post Processing
-(Not started)
+_Custom Net:_ <br>
+Key findings:
+<br>
+1.The model learns well on train set and performs well on validation set.<br>
+2.Even though the model fluctuates on validation set, at epoch 19 we get the highest accuracy and lowest loss.<br>
+3.Only normalization and dropout techniques were used to prevent overfitting.<br>
+4.The model performs well on our small dataset.<br>
+Obtained accuracy ~98%
 
-## Folder Structure
+
+
+## Explainable Net:
+GradCAM Technique: Explainability highlights activated features of a input object in a neural network during a forward pass.
+These explainability can be used to understand which regions of the input caused the model to predict a particular output.
+<img src="https://github.com/santos97/deep-NSCLC/blob/master/images/explainable.png" width="628">
+
+## Results:
+<img src="https://github.com/santos97/deep-NSCLC/blob/master/images/r1.png" width="628">
+Correct prediction of LUAD class by the model with 95% accuracy.The yellow and red regions are regions where our model identifies region of high malignancy.
+These explanations by our model helps pathologists pinpoint the area of malignancy.
+
+<br>
+<img src="https://github.com/santos97/deep-NSCLC/blob/master/images/r2.png" width="628">
