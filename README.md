@@ -5,7 +5,7 @@ To provide the pathology department at JSS Hospitals with highly accurate model 
 Setup:
 1. Conda Environment
 2. python 3.6.5
-3. tensorflow-gpu 1.9.0
+3. Pytorch 
 4. numpy 1.14.3
 5. matplotlib 2.1.2
 6. sklearn
