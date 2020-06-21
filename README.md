@@ -65,11 +65,12 @@ See folder convert-svs-to-jpg/
 Users can specify the number of cores to convert very large svs images faster.
 
 ## Networks:
-Inception V3 architecture
-<img width="628" alt="">
-
+Inception V3 architecture:<br>
+<img width="628" src="https://github.com/santos97/deep-NSCLC/blob/master/images/68747470733a2f2f7777772e50657465724d6f7373416d6c416c6c52657365617263682e636f6d2f6d656469612f696d616765732f7265706f7369746f726965732f434e4e2e6a7067.jpeg">
+<br>
 Custom Network:
-<img width="628" alt="">
+<br>
+<img src="https://github.com/santos97/deep-NSCLC/blob/master/images/custom_archi.png" width="628">
 
 ## Full Training the Network
 (In progress)
